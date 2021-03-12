@@ -1,0 +1,145 @@
+*{
+    padding:0;
+    margin:0;
+   
+}
+
+.header{
+    height:100vh;
+    background: url(main.jpg) no-repeat center center/cover ; 
+    text-align: center;
+}
+
+
+.header p{
+    padding-top: 200px;
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.header img{
+    width:300px;
+    height:130px;
+    float:left;
+    padding:10px;
+    
+}
+
+.sign_up{
+    width: 80px;
+    height: 50px;
+    background-color:gray;
+    color:white;
+    margin: 10px;
+    float:right;
+}
+
+.sign_in{
+        width: 80px;
+        height: 50px;
+        background-color:gray;
+        color:white;
+        margin: 10px;
+        float:right;
+    
+}
+
+.input-group{
+    margin-top: 20px;
+    width:90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin:auto;
+    padding:2px;
+    text-align: center;
+}
+
+.form-control{
+    margin-top: 50px;
+    border: 0 !important;
+    border-radius: 30px !important;
+    margin: 2px;
+    box-shadow:blue !important;
+
+
+}
+
+.input-group-append{
+    text-align: center;
+}
+
+.button-one {
+    margin-top: -6px;
+    padding:10px 20px;
+    outline: none;
+    background-color:mediumorchid;
+    color:white;
+    border: none;
+    border-radius:43%;
+    box-shadow: 0 9px #95a5a6;
+  }
+  
+  .button-one:hover{
+    background-color: #2ecc71;
+  }
+  
+  .button-one:active {
+    background-color: #2ecc71;
+    box-shadow: 0 5px #95a5a6;
+    transform: translateY(4px);
+  }
+  
+
+
+.features{
+    padding:100px 0;
+    background-color: #d9dbde;
+}
+
+h1{
+    text-align:center;
+    padding-bottom: 30px;
+}
+
+.feature-img img{
+    width:100%;
+ }
+
+ .feature-details{
+    padding:20px;
+    text-align: justify;
+}
+
+.feature-details h4{
+    color: blueviolet;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+.feature-details p{
+    font-size: 15px;
+ 
+}
+
+.feature-box{
+    box-shadow: 0 0 10px 1px rgb(10, 221, 38);
+    margin-bottom: 30px;
+
+}
+
+.faqs h1{
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+
+
+.f1 p{
+    padding-left: 10px;
+    font-size: 20px;
+}

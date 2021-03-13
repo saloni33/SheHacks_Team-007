@@ -1,18 +1,17 @@
-<!DOCTYPE html>
-
+ <!DOCTYPE html>
 <head>
     <header>
         <div class="container">
           <h1 class="logo"></h1>
     
-          <nav>
+          <nav class = "menu" >
             <ul>    
-              <li><a href="#">Poultry</a></li>
-              <li><a href="#">Regions</a></li>
-              <li><a href="#">FAQs</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Sign In</a></li>
-              <li><a href="#">Login</a></li>
+              <li><a href="poultary.html">Poultry</a></li>
+              <li><a href="region.html">Regions</a></li>
+              <li><a class="faqs" href="#faqs">FAQs</a></li>
+              <li><a class="contact" href="#contact">Contact Us</a></li>
+              <li><a href="reg.html">Sign In</a></li>
+              <li><a href="login.html">Login</a></li>
             </ul>
           </nav>
         </div>
@@ -131,9 +130,11 @@
         
     </section>
 
-    <section class="faqs">
-        <h1><b>Frequently Asked Questions (FAQ's)</b></h1>
+    <section id="faqs" class="faqs">
+        <h1><b>बार बार पूछे जाने वाले प्रश्न</b></h1>
         <div class="f1">
+
+            <img src="question-mark-1019820_1920.jpg">
             <p><b>प्र.क्र.1 विभिन्न सब्सिडी योजनाओं के तहत विभाग द्वारा शामिल की गई फसलें कौन कौन सी हैं?</b></p>
             <p>उत्तर) धान, गन्ना, मूंगफली और बाजरा |</p>
 
@@ -153,81 +154,39 @@
             <p>उत्तर) 6 से 7|</p>
             
           <p class="extra"> <b> यदि आपके प्रश्न का उल्लेख यहां नहीं किया गया है, तो कृपया दिए गए बॉक्स में अपना प्रश्न लिखें | </b> </p>
+        
+        <div align="center">
+        <textarea class="tarea" rows="8" cols="80" ></textarea>
+         <br>
+         <br>
+         <input class ="tsubmit"type="submit" value="Submit">
+        </div>
         </div>
    </section>
 
-   <section>
-     <div class="container">
-        <div class="innerwrap">
-         
-            <section class="section1 clearfix">
-            </section>
-         
-            <section class="section2 clearfix">
-                <div class="col2 column1 first">
-                    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-                    <div class="sec2map" style='overflow:hidden;height:550px;width:100%;'>
-                        <div id='gmap_canvas' style='height:100%;width:100%;'>
-                        </div>
-                    <div>
-                    <small><a href="http://embedgooglemaps.com">embed google maps</a></small>
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4><b>Quick Contacts</b></h4>
+                    <p><i class="fa fa-phone-square"></i> +91 96504 54002</p>
+                    <p><i class="fa fa-envelope-square"></i>farmology_121@gmail.com</p>
+                    <p><i class="fa fa-home"></i>A-102 Boomerang,  Andheri East, Mumbai, Maharashtra 400072</p>
                 </div>
-                <div><small><a href="http://freedirectorysubmissionsites.com/">free web directories</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
-                <script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(19.075314480255834,72.88153973865361),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(19.075314480255834,72.88153973865361)});infowindow = new google.maps.InfoWindow({content:'<strong>My Location</strong><br>mumbai<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                <div class="col-md-4">
+                    <h4><b>Follow Us On</b></h4>
+                    <p><i class="fa fa-facebook-official"></i>Facebook - /farmology_121</p>
+                    <p><i class="fa fa-instagram"></i>Instagram - @farmology_1</p>
+                    <p><i class="fa fa-twitter"></i>Twitter - @farmology</p>
                 </div>
-            </section>
+            </div><hr>
+            <p class="copyright">Company Name © 2021</p>
         </div>
-    </div>
     </section>
-
-
-
-    
-<!DOCTYPE html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Untitled</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-
-<body>
-    <div class="footer-basic">
-        <footer>
-        <div class="cont">
-    <ul class="contact">
-      <li style="text-align: left;">
-        <p><i class="fa fa-map-marker fa-3x"></i></p>
-        <p><strong><b>Farmology Ltd.</b></strong></br>A-102 Boomerang,  Andheri East,</br> Mumbai, Maharashtra 400072</p>
-      </li>
-      <li style="text-align: left;">
-        <p><i class="fa fa-phone fa-3x"></i></p>
-        <p><strong><b>Phone</b></strong></br>+91 99333 44444</p>
-      </li>
-      <li style="text-align: left;">
-        <p><i class="fa fa-envelope fa-3x"></i></p>
-        <p><strong><b>Email</b></strong></br>farmology@gmail.com</p>
-      </li>
-    </ul>
-  </div>
-            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
-            <ul class="list-inline">
-                <li class="list-inline-item">
-            </ul>
-            <h1 class="copyright">Company Name © 2021</h1>
-        </footer>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
 
 
 
-</body> 
-</html>
 

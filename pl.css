@@ -1,0 +1,30 @@
+body {
+    background-image:url("images1.jfif");
+    background-attachment:fixed;
+    background-size:100vw 100vh;
+    background-position:top center;
+    background-repeat:no-repeat;
+    opacity:1000;
+}   
+h1{
+    margin-top:200px;
+    margin-bottom: 70px;
+    margin-left:190px;
+    margin-right:190px;
+    color:black;
+    font-size:50px;
+    padding:-10px;
+    font-weight:bold;
+    text-align:center;   
+    background-color: #63e5ff;
+    opacity:340;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius:80px;
+
+}
+p{
+  font-size:30px;
+  text-align:left;
+  margin-left: 50px;
+}

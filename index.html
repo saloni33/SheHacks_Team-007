@@ -1,20 +1,37 @@
 <!DOCTYPE html>
 
 <head>
+    <header>
+        <div class="container">
+          <h1 class="logo"></h1>
+    
+          <nav>
+            <ul>    
+              <li><a href="#">Poultry</a></li>
+              <li><a href="#">Regions</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Sign In</a></li>
+              <li><a href="#">Login</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Website</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 
 </head>
 <body lang="hi">
     <section class="header">
         <div class="conatiner">
-            <img src="WhatsApp Image 2021-03-12 at 10.18.50 PM.jpeg">
-            <button type="button" class="sign_in">Sign In</button>
-            <button type="button" class="sign_up">Sign Up</button>
+            <img src="WhatsApp Image 2021-03-13 at 2.28.34 PM.jpeg">
+            <h1><b>Farmology</b></h1>
         </div>
         <p><b>कृषि एवं इससे संबद्ध क्षेत्र भारत की अधिकांश जनसंख्या, खासकर ग्रामीण क्षेत्रों के लोगों, के लिए आजीविका का मुख्य साधन है। यह सकल घरेलू उत्पाद (जीडीपी) के निर्धारण में भी महत्वपूर्ण योगदान देता है।  इस खंड में कृषि फसलों को कैसे प्रभावी ढंग से  विकसित करे इत्यादि के बारे जानकारी प्रदान की गई है |</b></p>
         <div class="input-group">
@@ -108,6 +125,12 @@
         </div>
     </section>
 
+    <section class="poultary">
+        <h1><b>एकीकृत कृषि प्रणाली </b></h1>
+        <p><b>एकीकृत कृषि प्रणाली, खेती की एक ऐसी पद्वति है जिसके तहत किसान अपने खेत से सम्बंधित उपलब्ध सभी संसाधनों का इस्तेमाल करके कृषि से अधिक से अधिक लाभ प्राप्त करता है। कृषि के इस विधि से छोटे किसानों की अपनी घरेलू आवश्यकताओं की पूर्ति के साथ कृषि से अत्यधिक लाभ प्राप्त होता है वहीं दूसरी ओर फसल उत्पादन और अवशेषों की रीसाइकलिंग के द्वारा टिकाऊ फसल उत्पादन में मदद मिलती है। इस विधि के तहत मुख्य फसलों के साथ दूसरी खेती आधारित छोटे उद्योग, पशुपालन, मछली पालन एवं बागवानी जैसे कार्यों को किया जाता है।</b></p>
+        
+    </section>
+
     <section class="faqs">
         <h1><b>Frequently Asked Questions (FAQ's)</b></h1>
         <div class="f1">
@@ -122,8 +145,88 @@
 
             <p><b>प्र.क्र.4 उर्वरक डीलर लाइसेंस प्राप्त करने के लिए किससे संपर्क किया जाना चाहिए</b></p>
             <p>उत्तर) कृषि और किसान कल्याण निदेशालय, में कृषि अधिकारी (उर्वरक)।</p>
+
+            <p><b>प्र.क्र.5 खरीफ की फसलें कब बोई जाती है और कब काटी जाती है ?</b></p>
+            <p>उत्तर) खरीफ की फसलें जून जुलाई में बोई जाती हैं तथा सितम्बर अक्टूबर में इनकी कटाई होती है |</p>
+
+            <p><b>प्र.क्र.6 सामान्य फसले उगाने के लिए उर्वर भूमि का PH मान क्या है ?</b></p>
+            <p>उत्तर) 6 से 7|</p>
+            
+          <p class="extra"> <b> यदि आपके प्रश्न का उल्लेख यहां नहीं किया गया है, तो कृपया दिए गए बॉक्स में अपना प्रश्न लिखें | </b> </p>
         </div>
    </section>
+
+   <section>
+     <div class="container">
+        <div class="innerwrap">
+         
+            <section class="section1 clearfix">
+            </section>
+         
+            <section class="section2 clearfix">
+                <div class="col2 column1 first">
+                    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+                    <div class="sec2map" style='overflow:hidden;height:550px;width:100%;'>
+                        <div id='gmap_canvas' style='height:100%;width:100%;'>
+                        </div>
+                    <div>
+                    <small><a href="http://embedgooglemaps.com">embed google maps</a></small>
+                </div>
+                <div><small><a href="http://freedirectorysubmissionsites.com/">free web directories</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
+                <script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(19.075314480255834,72.88153973865361),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(19.075314480255834,72.88153973865361)});infowindow = new google.maps.InfoWindow({content:'<strong>My Location</strong><br>mumbai<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                </div>
+            </section>
+        </div>
+    </div>
+    </section>
+
+
+
+    
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="footer-basic">
+        <footer>
+        <div class="cont">
+    <ul class="contact">
+      <li style="text-align: left;">
+        <p><i class="fa fa-map-marker fa-3x"></i></p>
+        <p><strong><b>Farmology Ltd.</b></strong></br>A-102 Boomerang,  Andheri East,</br> Mumbai, Maharashtra 400072</p>
+      </li>
+      <li style="text-align: left;">
+        <p><i class="fa fa-phone fa-3x"></i></p>
+        <p><strong><b>Phone</b></strong></br>+91 99333 44444</p>
+      </li>
+      <li style="text-align: left;">
+        <p><i class="fa fa-envelope fa-3x"></i></p>
+        <p><strong><b>Email</b></strong></br>farmology@gmail.com</p>
+      </li>
+    </ul>
+  </div>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item">
+            </ul>
+            <h1 class="copyright">Company Name © 2021</h1>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+
 
 </body> 
 </html>
